@@ -1,0 +1,57 @@
+body,h1 {
+    font-family: "Raleway", sans-serif;
+    
+}
+
+body, html {
+    height: 100%;
+}
+
+.bgimg {
+  background-image: url('Imagenes/fondo2.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#alert {
+    background: #EA4242;
+    display: block;
+    top:  0;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#title, #videoCaption, #redes {
+    color: white;
+}
+
+h1 {
+    
+}
+
+#centralContent {
+    text-align: center;
+}
+
+.container {
+}
+
+hr {
+    color: rgb(170, 168, 168);
+    border-color: rgb(170, 168, 168);
+    background-color: rgb(170, 168, 168);
+}
+
+#icons {
+    text-align: center;
+}
+
+
+
+
+
+    
