@@ -1,57 +1,90 @@
-body,h1 {
-    font-family: "Raleway", sans-serif;
-    
+
+
+body, 
+h1 {
+  font-family: "Raleway", sans-serif;
 }
 
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
 .bgimg {
-  background-image: url('Imagenes/fondo2.jpg');
+  background-image: url("Imagenes/fondo2.jpg");
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
 
 #alert {
-    background: #EA4242;
-    display: block;
-    top:  0;
-    right: 0;
-    color: #fff;
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
+  background: #ea4242;
+  display: block;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
 }
 
-#title, #videoCaption, #redes {
-    color: white;
+#title,
+#videoCaption,
+#redes {
+  color: white;
 }
 
 h1 {
-    
 }
 
 #centralContent {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
 }
 
 hr {
-    color: rgb(170, 168, 168);
-    border-color: rgb(170, 168, 168);
-    background-color: rgb(170, 168, 168);
+  color: rgb(170, 168, 168);
+  border-color: rgb(170, 168, 168);
+  background-color: rgb(170, 168, 168);
 }
 
 #icons {
-    text-align: center;
+  text-align: left;
 }
 
+/* Media Querys para iframe responsive */
 
-
-
-
+    /* CSS general */
+    .mi-iframe {
+        width: 200px;
+        height: 150px;
+    }
     
+    /* CSS pantallas de 320px o superior */
+    @media (min-width: 320px) {
+    
+        .mi-iframe {
+        width: 300px;
+        height: 250px;
+        } 
+    
+    }
+    
+    /* CSS pantalla 768px o superior */
+    @media (min-width: 768px) {
+    
+        .mi-iframe {
+        width: 500px;
+        height: 350px;
+        } 
+    
+    }
+
+/* ----------------------------------- */
+
+#container {
+    display: flex;
+    justify-content: center;
+}
